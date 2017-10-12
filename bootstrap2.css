@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+body{
+  background:#F1F1F1;
+  
+  
+}
+.form-container{
+  width:40%;
+  margin:80px auto;
+  /*How can i use the calc function to give space between the containers?*/
+  
+}
+.text-styler{
+  font-size:18px;
+  color:grey;
+  padding:5px 0 0;
+  font-family:'Archivo Narrow';
+}
+button{
+  width:100%;
+  
+  
+}
+.btn.btn-primary{
+  text-align:left;
+}
+.inputBox{
+  padding: 0 0 10px;
+  
+}
+input.form-control{
+  pading:0 0 20px;
+  font-family:'Archivo Narrow';
+}
+
+/*I tried to solve the problem of the arrow floating to right of the next bottom line by this method of below two css selectors. Is there a better method?*/
+.button-text{
+  float:left;
+  font-family:'Archivo Narrow';
+}
+.btn.btn-primary span{
+  float:right;
+}
+.container-fluid{
+  background:url('https://d1a3f4spazzrp4.cloudfront.net/arch-frontend/1.0.0/d1a3f4spazzrp4.cloudfront.net/1454024011-global_aqua_01_scale_125_144dpi_01-37a1ca0b8b.png');
+}
+.logo-container{
+  height:60px;
+  position:relative;
+  left:45%;
+  top:20px;
+}
